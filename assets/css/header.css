@@ -1,0 +1,57 @@
+.cabecalho {
+    align-items: center;
+	background-color: transparent;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    width: 100%;
+}
+
+.cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+
+.cabecalho__titulo {
+	color: #FFF;
+    font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.cabecalho__titulo a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__lista {
+    display: flex;
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__link {
+    color: #FFF;
+	display: block;
+	font-family: 'Jost', sans-serif;
+	padding: 10px;
+	text-decoration: none;
+    text-transform: uppercase;
+	transition: .5s;
+}
+
+.menu__link.ativo {
+    color: red;
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}

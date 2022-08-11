@@ -1,0 +1,62 @@
+#home {
+    display: flex;
+    height: calc(100vh - 70px);
+    justify-content: center;
+    width: 100%;
+}
+
+.home__midiaSocial {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+}
+
+.midiaSocial__icone {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.midiaSocial__icone a {
+    background: #FFF;
+    border-radius: 50%;
+    color: #000;
+    font-size: 25px;
+    height: 32px;
+    line-height: 1;
+    padding-top: 8px;
+    text-align: center;
+    width: 40px;
+}
+
+.home__conteudo {
+    color: #FFF;
+    padding: 2em;
+}
+
+.home__conteudo:nth-child() {
+    margin-bottom: 1.5em;
+}
+
+.conteudo__titulo {
+    font-size: 55px;
+}
+
+.conteudo__cargo {
+    font-size: 28px;
+}
+
+.fa-linkedin:hover {
+    color: #0A66C2;
+}
+
+.home__conteudo {
+    width: 45%;
+}
+
+.home__imagem {
+    background: url('../img/perfil.png') no-repeat center / cover;
+    width: 45%;
+}
